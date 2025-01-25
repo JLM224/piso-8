@@ -36,3 +36,15 @@
   border: black 1px solid;
   border-radius: 10px;
 }
+
+.video-background {
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  margin-top:  0;
+  margin left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: scale;
+  z-index: 1;
+}
