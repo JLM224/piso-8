@@ -4,5 +4,35 @@
   box-sizing: border-box;
 }
 
-.navbar-brand img{width: 150px;}
-.bg-propio{background-image: linear-gradient( to bottom, rgb(175, 177, 0),rgb(223, 226, 0), rgb(251, 255, 0));}
+.navbar-brand img {
+  width: 150px;
+}
+.bg-propio {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(175, 177, 0),
+    rgb(223, 226, 0),
+    rgb(251, 255, 0)
+  );
+}
+.footer {
+  & ul {
+    list-style: none;
+    & a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+.bg-propio-f {
+  background-color: #a9abae;
+}
+.Suscribirme {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  background-color: #fff001;
+  border: black 1px solid;
+  border-radius: 10px;
+}
