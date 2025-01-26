@@ -15,6 +15,8 @@
     rgb(251, 255, 0)
   );
 }
+.fijo{position: sticky; width: 100%; top: 0;}
+
 .footer {
   & ul {
     list-style: none;
@@ -36,11 +38,10 @@
   border: black 1px solid;
   border-radius: 10px;
 }
-
 .video-background {
   padding-top: 0;
   padding-bottom: 0;
-  position: relative;
+position: static;
   margin-top:  0;
   margin left: 0;
   width: 100%;
@@ -48,3 +49,4 @@
   object-fit: scale;
   z-index: 1;
 }
+
