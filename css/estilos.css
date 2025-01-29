@@ -48,3 +48,48 @@
   object-fit: scale;
   z-index: 1;
 }
+
+/* 404 */
+.error-container {
+  text-align: center;
+  }
+  
+  .error-image {
+    width: 100%;
+    height: 100 %;
+  }
+  
+  .row404 {
+    height: 600px;
+    background-color: #FDCA21;
+  }
+  
+  .contenedor {
+    height: 500px;
+  }
+  
+  .logo-P8-404 a {
+    width: auto;
+  }
+  
+  .boton {
+    background-color: #FDCA21;
+    width: 50%;
+    height: 3em;
+    box-shadow: 3px 3px 6px #000000; 
+  
+  a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+  }
+  }
+  
+  .sombra-video {
+    box-shadow: 3px 3px 6px #000000; 
+  }
+  
+  .bg-404 {
+    background-color: #FDCA21;
+    height: 500px;
+  }
