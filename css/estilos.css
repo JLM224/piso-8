@@ -7,6 +7,11 @@
 .navbar-brand img {
   width: 150px;
 }
+
+.zindex-navbar {
+  z-index: 999;
+}
+
 .bg-propio {
   background-image: linear-gradient(
     to bottom,
@@ -64,9 +69,9 @@
     color: antiquewhite;
   }
   }
-  
+
   .error-image {
-    width: 100%;
+    width: 100px;
     height: 100%;
   }
   
@@ -106,8 +111,8 @@
 }
 
 .row404 {
-  height: 600px;
-  background-color: #fdca21;
+  height: 800px;
+  background-color: #333435;
 }
 
 .contenedor {
@@ -132,13 +137,4 @@
 
 .sombra-video {
   box-shadow: 3px 3px 6px #000000;
-}
-
-.bg-404 {
-  background-color: #fdca21;
-  height: 500px;
-}
-
-.zindex-navbar {
-  z-index: 999;
 }
