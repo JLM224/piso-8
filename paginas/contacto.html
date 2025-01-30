@@ -2,9 +2,11 @@
 <html lang="es_AR">
   <head>
     <meta charset="UTF-8" />
+    <meta description="Paquetes turisticos para descubrir la provincia de Tucumán">
+    <meta keywords="turismo local tucuman circuitos lugares paseos actividades">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/favicon P8.png" type="image/x-icon" />
     <!-- CDN del CSS de Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -13,9 +15,221 @@
       crossorigin="anonymous"
     />
     <!-- CSS Personalizado -->
-    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="stylesheet" href="../css/estilos.css" />
   </head>
   <body>
+   
+    <div class="d-flex flex-wrap justify-content-end bg-dark text-light">
+      <ul class="mt-3">
+        <img src="../img/icono numeros fijos.png" alt="" width="20px"><h7 class="mx-4">3814-213243</h1></li>
+      </ul>
+      <ul class="mt-3">
+       <img src="../img/icono whatsapp.png" alt="" width="20px"><h7 class="mx-4">3814223355</h5>
+      </ul>
+    </div>
+    <!-- Navbar -->
+     <header class="fijo">
+      <section class="bg-propio mb-3">
+  <nav class="navbar navbar-expand-lg zindex-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html"><img src="../img/LOGO P8.png" alt="logo-principal"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Servicios</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu bg-propio">
+            <li><a class="dropdown-item" href="#">Circuito Grande</a></li>
+            <li><a class="dropdown-item" href="#">Circuito Chico</a></li>
+            <li><a class="dropdown-item" href="#">Escapadas Finde</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Galeria</a>
+        </li>
+      </ul>
+      <ul
+      class="navbar-nav ms-auto mb-2 mb-lg-0">
+      <li class="nav-item text-center">
+        <img src="../img/icono ayuda.png" alt="" width="33px" />
+        <a class="nav-link text-center" aria-current="page" href="#">Ayuda</a>
+      </li>
+      <li class="nav-item text-center mt-1">
+        <img src="../img/icono contacto.png" alt="" width="55px"/>
+        <a class="nav-link active" href="./contacto.html">Contacto</a>
+      </li>
+      <li class="nav-item text-center ">
+        <img src="../img/icono iniciar sesion.png" alt="" width="38px" />
+        <a class="nav-link" href="#">Suscribirme</a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+</section>
+</header>
+<!-- Main -->
+<main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-6 d-flex justify-content-center mt-3">
+            <div>
+              <form class="border p-5">
+                <h3 class="text-center">Consultas</h3>
+                <div class="mb-3">
+                  <label for="exampleInputEmailNom" class="form-label"
+                    >Nombre y Apellido</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmailNom"
+                    aria-describedby="emailHelp"
+                    required
+                    maxlength="15"
+                    minlength="5"
+                    placeholder="Juan Perez"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmailTel" class="form-label"
+                    >Telefono</label
+                  >
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleInputEmailTel"
+                    aria-describedby="emailHelp"
+                    required
+                    maxlength="15"
+                    minlength="10"
+                    placeholder="3815219341"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    required
+                    maxlength="25"
+                    minlength="10"
+                    placeholder="dominio@gmail.com"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmailCons" class="form-label"
+                    >Consulta</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleInputEmailCons"
+                    aria-describedby="emailHelp"
+                    required
+                    maxlength="30"
+                    minlength="10"
+                    placeholder="Ingresa tu consulta..."
+                  />
+                </div>
+                <div class="d-flex justify-content-center">
+                  <button type="submit" class="btn btn-secondary">
+                    Enviar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-6 d-none d-md-block flex justify-content-center mt-3">
+            <div class="mx-2 my-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.118032695642!2d-65.2096526255642!3d-26.83619789000926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0e8d0271b7%3A0x7946062ac490db30!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20576%2C%20T4000%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1738102905164!5m2!1ses!2sar"
+                width="400"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+<footer class="footer mt-3">
+      <div class="container-fluid bg-propio-f">
+        <div class="row">
+          <div class="col-12 col-md-3 d-flex justify-content-center my-3">
+            <img
+              src="../img/LOGO P8.png"
+              width="200px"
+              height="200px"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-md-3 d-flex justify-content-center flex-wrap my-3">
+            <ul>
+              <li><a href="../paginas/error404.html">Condiciones Generales</a></li>
+              <li><a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/texact.htm">Ley 24.240</a></li>
+              <li><a href="../paginas/error404.html">Politica de Seguridad</a></li>
+              <li><a href="../paginas/error404.html">Politica de Privacidad</a></li>
+              <li><a href="../paginas/error404.html">Terminos y Condiciones</a></li>
+              <li><a href="../paginas/error404.html">Defensa del Consumidor</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3 d-flex justify-content-center flex-wrap my-3">
+            <ul class="nav-link">
+                <h5 class="text-center">NO TE PIERDAS Nuestras Promociones!!!</h5>
+                <li class="nav-item Suscribirme">
+                  <img src="../img/icono contacto.png" width="40px" alt="">
+                  <a href="" class="mx-2">Suscribete!</a></li>
+                  </ul>
+          </div>
+          <div class="col-12 col-md-3 d-flex justify-content-center">
+            <div class="mt-3">
+                  <ul>
+              <h5 class="text-center">Seguinos!</h5>
+              <li class="nav-item">
+                <a href="https://www.instagram.com"
+                  ><img
+                    src="../img/icono insta.png"
+                    width="45px"
+                    alt="logo-instagram"
+                /></a>
+                <a href="https://www.facebook.com/"
+                  ><img src="../img/icono face.png" width="44px" alt="logo-facebook"
+                /></a>
+                <a href="https://x.com/"><img src="../img/icono x.png" width="33px" alt="logo-x"></a>
+                <a href="https://www.tiktok.com/"
+                  ><img src="../img/icono tiktok.png" width="40px" alt="logo-tik-tok"
+                /></a>
+                 <a href="https://www.linkedin.com/"><img src="../img/icono linkedin.png" width="40px" alt="logo-linkedin"></a>
+                <a href="https://www.youtube.com/"><img src="../img/icono youtube.png" width="40px" alt="logo-youtube"></a>
+              </li>
+            </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- CDN del JS de Bootstrap -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
