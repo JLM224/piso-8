@@ -51,17 +51,27 @@
   text-align: center;
   h1 {
     font-size: 80px;
+    color: antiquewhite;
+  }
+  h2{
+    color: antiquewhite;
+  }
+  h3 {
+    color: antiquewhite;
+  }
+  p{
+    color: antiquewhite;
   }
   }
   
   .error-image {
     width: 100%;
-    height: 100 %;
+    height: 100%;
   }
   
   .row404 {
-    height: 600px;
-    background-color: #FDCA21;
+    height: 800px;
+    background-color: #373435;
   }
   
   .contenedor {
