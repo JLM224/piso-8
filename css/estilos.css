@@ -49,6 +49,7 @@
 
 .error-container {
   text-align: center;
+  
   h1 {
     font-size: 80px;
     color: antiquewhite;
@@ -92,6 +93,40 @@
     text-decoration: none;
     list-style: none;
     color: black;
+  }
+}
+
+.sombra-video {
+  box-shadow: 3px 3px 6px #000000;
+}
+
+.error-image {
+  width: 100%;
+  height: 100 %;
+}
+
+.row404 {
+  height: 600px;
+  background-color: #fdca21;
+}
+
+.contenedor {
+  height: 500px;
+}
+
+.logo-P8-404 a {
+  width: auto;
+}
+
+.boton {
+  background-color: #fdca21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000;
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
   }
 }
 
