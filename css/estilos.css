@@ -35,7 +35,7 @@
 }
 .Suscribirme {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 40px;
   background-color: #fff001;
@@ -53,7 +53,7 @@
 
 .error-image {
   width: 100%;
-  height: 100 %;
+  height: 100%;
 }
 
 .row404 {
@@ -92,4 +92,11 @@
 
 .zindex-navbar {
   z-index: 999;
+}
+.form-contacto {
+  width: 100%;
+}
+.width-input-75 {
+  width: 75%;
+  justify-content: center;
 }
