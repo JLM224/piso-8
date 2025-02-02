@@ -7,6 +7,11 @@
 .navbar-brand img {
   width: 150px;
 }
+
+.zindex-navbar {
+  z-index: 999;
+}
+
 .bg-propio {
   background-image: linear-gradient(
     to bottom,
@@ -49,6 +54,55 @@
 
 .error-container {
   text-align: center;
+
+  h1 {
+    font-size: 80px;
+    color: antiquewhite;
+  }
+  h2 {
+    color: antiquewhite;
+  }
+  h3 {
+    color: antiquewhite;
+  }
+  p {
+    color: antiquewhite;
+  }
+}
+
+.error-image {
+  width: 100px;
+  height: 100%;
+}
+
+.row404 {
+  height: 800px;
+  background-color: #373435;
+}
+
+.contenedor {
+  height: 500px;
+}
+
+.logo-P8-404 a {
+  width: auto;
+}
+
+.boton {
+  background-color: #fdca21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000;
+
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+}
+
+.sombra-video {
+  box-shadow: 3px 3px 6px #000000;
 }
 
 .error-image {
@@ -57,8 +111,8 @@
 }
 
 .row404 {
-  height: 600px;
-  background-color: #fdca21;
+  height: 800px;
+  background-color: #333435;
 }
 
 .contenedor {
