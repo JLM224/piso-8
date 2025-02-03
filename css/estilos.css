@@ -5,6 +5,7 @@
 }
 .navbar-brand img {
   width: 150px;
+  height: 120px;
 }
 .zindex-navbar {
   z-index: 999;
@@ -111,14 +112,14 @@
 
 .sombra-card-nosotros {
   box-shadow: 3px 3px 6px #000000;
-a {
-  text-decoration: none;
-  list-style: none;
-  color: black;
-}
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
 }
 
-.card{
+.card {
   height: 650px;
   object-fit: fill;
 }
