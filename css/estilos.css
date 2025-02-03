@@ -3,15 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .navbar-brand img {
   width: 150px;
 }
-
 .zindex-navbar {
   z-index: 999;
 }
-
 .bg-propio {
   background-image: linear-gradient(
     to bottom,
@@ -25,7 +22,6 @@
   width: 100%;
   top: 0;
 }
-
 .footer {
   & ul {
     list-style: none;
@@ -40,7 +36,7 @@
 }
 .Suscribirme {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 40px;
   background-color: #fff001;
@@ -54,46 +50,46 @@
 
 .error-container {
   text-align: center;
-  
+
   h1 {
     font-size: 80px;
     color: antiquewhite;
   }
-  h2{
+  h2 {
     color: antiquewhite;
   }
   h3 {
     color: antiquewhite;
   }
-  p{
+  p {
     color: antiquewhite;
   }
-  }
+}
 
-  .error-image {
-    width: 100px;
-    height: 100%;
-  }
-  
-  .row404 {
-    height: 800px;
-    background-color: #373435;
-  }
-  
-  .contenedor {
-    height: 500px;
-  }
-  
-  .logo-P8-404 a {
-    width: auto;
-  }
-  
-  .boton {
-    background-color: #FDCA21;
-    width: 50%;
-    height: 3em;
-    box-shadow: 3px 3px 6px #000000; 
-  
+.error-image {
+  width: 100px;
+  height: 100%;
+}
+
+.row404 {
+  height: 800px;
+  background-color: #373435;
+}
+
+.contenedor {
+  height: 500px;
+}
+
+.logo-P8-404 a {
+  width: auto;
+}
+
+.boton {
+  background-color: #fdca21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000;
+
   a {
     text-decoration: none;
     list-style: none;
@@ -104,6 +100,7 @@
 .sombra-video {
   box-shadow: 3px 3px 6px #000000;
 }
+<<<<<<< HEAD
 
 .seccion-nosotros {
   height: 700px;
@@ -134,3 +131,56 @@ a {
   height: 650px;
   object-fit: fill;
 }
+=======
+feature/sobre-nosotros
+
+.error-image {
+  width: 100%;
+  height: 100%;
+}
+
+.row404 {
+  height: 800px;
+  background-color: #333435;
+}
+
+.contenedor {
+  height: 500px;
+}
+
+.logo-P8-404 a {
+  width: auto;
+}
+
+.boton {
+  background-color: #fdca21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000;
+
+  a {
+    text-decoration: none;
+    list-style-type: none;
+  }
+}
+
+.sombra-video {
+  box-shadow: 3px 3px 6px #000000;
+}
+
+.bg-404 {
+  background-color: #fdca21;
+  height: 500px;
+}
+
+.zindex-navbar {
+  z-index: 999;
+}
+.form-contacto {
+  width: 100%;
+}
+.width-input-75 {
+  width: 75%;
+  justify-content: center;
+}
+>>>>>>> 9412fea1f44c289b93daaf93483aa4295f052582
