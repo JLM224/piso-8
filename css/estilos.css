@@ -3,9 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .navbar-brand img {
   width: 150px;
+  height: 120px;
+}
+.zindex-navbar {
+  z-index: 999;
 }
 .bg-propio {
   background-image: linear-gradient(
@@ -20,7 +23,6 @@
   width: 100%;
   top: 0;
 }
-
 .footer {
   & ul {
     list-style: none;
@@ -35,7 +37,7 @@
 }
 .Suscribirme {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 100%;
   height: 40px;
   background-color: #fff001;
@@ -49,16 +51,30 @@
 
 .error-container {
   text-align: center;
+
+  h1 {
+    font-size: 80px;
+    color: antiquewhite;
+  }
+  h2 {
+    color: antiquewhite;
+  }
+  h3 {
+    color: antiquewhite;
+  }
+  p {
+    color: antiquewhite;
+  }
 }
 
-.error-image {
-  width: 100%;
-  height: 100 %;
+.error-image404 {
+  width: 100px;
+  height: 100%;
 }
 
 .row404 {
-  height: 600px;
-  background-color: #fdca21;
+  height: 800px;
+  background-color: #373435;
 }
 
 .contenedor {
@@ -70,6 +86,61 @@
 }
 
 .boton {
+  background-color: #fdca21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000;
+
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+}
+
+.sombra-video {
+  box-shadow: 3px 3px 6px #000000;
+}
+
+.seccion-nosotros {
+  height: 700px;
+  width: 100%;
+  background-color: write;
+  align-items: center;
+  justify-content: center;
+}
+
+.sombra-card-nosotros {
+  box-shadow: 3px 3px 6px #000000;
+  a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+  }
+}
+
+.card {
+  height: 650px;
+  object-fit: fill;
+}
+
+.error-image {
+  width: 100%;
+  height: 100%;
+}
+
+.row404 {
+  height: 800px;
+  background-color: #333435;
+}
+
+.contenedor {
+  height: 500px;
+}
+
+.boton {
+  align-items: center;
+  justify-content: center;
   background-color: #fdca21;
   width: 50%;
   height: 3em;
@@ -92,4 +163,11 @@
 
 .zindex-navbar {
   z-index: 999;
+}
+.form-contacto {
+  width: 100%;
+}
+.width-input-75 {
+  width: 75%;
+  justify-content: center;
 }
