@@ -16,7 +16,6 @@
   );
 }
 .fijo{position: sticky; width: 100%; top: 0;}
-
 .footer {
   & ul {
     list-style: none;
@@ -38,11 +37,9 @@
   border: black 1px solid;
   border-radius: 10px;
 }
-
 .zindex-navbar{
   z-index: 999;
 }
-
 .row{row-gap: 33px;}
 .espacio{margin-top:800px;}
 .fondo{background-image: url(../img/LOGO\ P8.png); background-repeat: no-repeat; background-attachment: fixed; background-size: contain; object-fit: cover; background-position:50%; background-position-y: 50px;} 
