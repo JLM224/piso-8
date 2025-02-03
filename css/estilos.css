@@ -138,6 +138,8 @@ a {
 }
 
 .boton {
+  align-items: center;
+  justify-content: center;
   background-color: #fdca21;
   width: 50%;
   height: 3em;
