@@ -104,3 +104,33 @@
 .sombra-video {
   box-shadow: 3px 3px 6px #000000;
 }
+
+.seccion-nosotros {
+  height: 700px;
+  width: 100%;
+  background-color: write;
+  align-items: center;
+  justify-content: center;
+}
+
+.sombra-card-nosotros {
+  box-shadow: 3px 3px 6px #000000;
+}
+
+.boton {
+  background-color: #FDCA21;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000; 
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+}
+
+.card{
+  height: 650px;
+  object-fit: fill;
+}
