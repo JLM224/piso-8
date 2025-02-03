@@ -66,7 +66,7 @@
   }
 }
 
-.error-image {
+.error-image404 {
   width: 100px;
   height: 100%;
 }
@@ -100,7 +100,28 @@
 .sombra-video {
   box-shadow: 3px 3px 6px #000000;
 }
-feature/sobre-nosotros
+
+.seccion-nosotros {
+  height: 700px;
+  width: 100%;
+  background-color: write;
+  align-items: center;
+  justify-content: center;
+}
+
+.sombra-card-nosotros {
+  box-shadow: 3px 3px 6px #000000;
+a {
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+}
+
+.card{
+  height: 650px;
+  object-fit: fill;
+}
 
 .error-image {
   width: 100%;
@@ -114,10 +135,6 @@ feature/sobre-nosotros
 
 .contenedor {
   height: 500px;
-}
-
-.logo-P8-404 a {
-  width: auto;
 }
 
 .boton {
