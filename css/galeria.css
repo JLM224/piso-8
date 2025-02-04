@@ -20,7 +20,6 @@
   width: 100%;
   top: 0;
 }
-
 .footer {
   & ul {
     list-style: none;
@@ -33,42 +32,183 @@
 .bg-propio-f {
   background-color: #a9abae;
 }
-.Suscribirme {
+.btn-suscribete {
+  width: 100%;
+  height: 50px;
+  background-color: #fdca21;
   display: flex;
-  justify-content: center;
-  width: 150px;
-  height: 40px;
-  background-color: #fff001;
-  border: black 1px solid;
+  justify-content: space-evenly;
+  align-items: center;
   border-radius: 10px;
+  border: 1px solid #fdca21;
 }
-
-.zindex-video {
-  z-index: -100;
-}
-
 .zindex-navbar {
   z-index: 999;
 }
-
-.container-galeria img {
-  object-fit: cover;
+.row {
+  row-gap: 33px;
 }
-.container-galeria img {
+.espacio {
+  margin-top: 800px;
+}
+.fondo {
+  background-image: url(../img/LOGO\ P8.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  object-fit: cover;
+  background-position: 50%;
+  background-position-y: 50px;
+}
+.caja img {
+  border-radius: 4%;
   &:hover {
-    filter: drop-shadow(16px 30px 10px#000000);
+    filter: drop-shadow(16px 16px 20px#000000);
+    transition: 1s;
   }
 }
-.gallery-modal {
-  width: 100%;
+.fondo2 {
+  background-image: url(../img/fondo2.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  object-fit: cover;
+  background-position: 50%;
 }
 
-.Suscribirme {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-  height: 40px;
-  background-color: #fff001;
-  border: black 1px solid;
-  border-radius: 10px;
+/* VENTANA MODAL */
+/*Efecto*/
+.modalmask {
+  position: fixed;
+  font-family: Arial, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
 }
+.modalmask:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+/*Formato de la ventana*/
+.modalbox{
+  width: 400px;
+  position: relative;
+  padding: 5px 20px 13px 20px;
+  background: #373435;
+  border-radius:3px;
+  -webkit-transition: all 500ms ease-in;
+  -moz-transition: all 500ms ease-in;
+  transition: all 500ms ease-in;
+}
+
+/*Movimientos*/
+.movedown {
+  margin: 0 auto;
+}
+
+.modalmask:target .movedown{       
+  margin:10% auto;
+}
+
+/*Boton de cerrar*/
+.close {
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 1px;
+  text-align: center;
+  top: 1px;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius:3px;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: #FAAC58;
+  color:#222;
+}
+
+.modalboy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+
+.button-sub {
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+  height: 40px;
+  width: 78%;
+  color: #b9c4c6;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid white;
+  transition: all .5s ease;
+  background-color: transparent;
+  width: 50%;
+  height: 3em;
+  box-shadow: 3px 3px 6px #000000; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-sub:hover {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background:linear-gradient( 
+    rgb(175, 177, 0),
+    rgb(223, 226, 0),
+    rgb(251, 255, 0)
+  ) ;
+}
+
+.input-sub {
+  display: flex;
+  margin: auto;
+  height: 40px;
+  width: 75%;
+  padding-left: 10px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: transparent;
+  border-bottom-right-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-sub:hover {
+  transition: .5s;
+  border: 1px solid #eeed05;
+  color: #eeed05;
+}
+
+.text-sub {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+/* FIN DE VENTANA MODAL */
