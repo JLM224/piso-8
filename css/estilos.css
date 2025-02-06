@@ -176,7 +176,7 @@
 /* VENTANA MODAL */
 /*Efecto*/
 .modalmask {
-  position: fixed;
+  position:fixed;
   font-family: Arial, sans-serif;
   top: 0;
   right: 0;
